@@ -10,21 +10,6 @@ function randomNumber(tab) {
     zeroOrOne = Math.floor(Math.random() * 2);
 }
 
-// genere un code au moment du clique sur le bouton
-// insert les symboles dans le DOM selon le numéro obtenu
-/*buttonElt.addEventListener("click", function() {
-        for (let i = 0; i < spanElts.length; i++) {
-        randomNumber(tab);
-        if (zeroOrOne === 1 && symbole < 26) {
-            let upper = tab[symbole].toUpperCase();
-            spanElts[i].textContent = upper;
-        } else {
-            spanElts[i].textContent = tab[symbole];
-        }
-    }
-});*/
-
-// test
 
 
 let chooseLength;
